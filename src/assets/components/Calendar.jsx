@@ -174,7 +174,7 @@ function BigCalendar() {
 
   return (
     <div className="mt-10">
-      <button className="bg-black text-red-700" onClick={handleAddEvent}>
+      <button className="bg-black text-red-700 border border-red-700 p-2 rounded-lg m-2 hover:bg-red-700 hover:text-black" onClick={handleAddEvent}>
         Add Event
       </button>
       <Calendar

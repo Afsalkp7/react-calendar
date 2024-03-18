@@ -4,7 +4,7 @@
 }
 
 .custom-calendar .rbc-today {
-    background-color: black; 
+    background-color: rgb(238, 0, 0); 
     color: white; 
   }
 
@@ -22,4 +22,8 @@
 }
 .custom-calendar .rbc-month-view{
     margin-top: 100px;
+}
+.custom-calendar .rbc-now  {
+    background-color: rgb(238, 0, 0); 
+    color: white;
 }
