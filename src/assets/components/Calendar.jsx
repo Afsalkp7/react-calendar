@@ -174,9 +174,7 @@ function BigCalendar() {
 
   return (
     <div className="mt-10">
-      {/* <button className="bg-black text-red-700 border border-red-700 p-2 rounded-lg m-2 hover:bg-red-700 hover:text-black" onClick={handleAddEvent}>
-        Add Event
-      </button> */}
+      
       <Calendar
         className="custom-calendar bg-black text-red-700"
         localizer={localizer}
@@ -188,6 +186,12 @@ function BigCalendar() {
         onSelectSlot={handleSelectSlot}
         onSelectEvent={handleSelectEvent}
       />
+      <div className="flex">
+        <button className="bg-black mx-auto text-red-700 border border-red-700 p-2 rounded-lg m-2 hover:bg-red-700 hover:text-black" onClick={handleAddEvent}>
+        Add Event
+      </button>
+      </div>
+      
       {showForm && (
         <div className="fixed top-0 left-0 w-full h-full flex items-center justify-center bg-gray-800 bg-opacity-70 backdrop-blur-lg z-10">
           <div class="bg-black rounded-lg p-8 max-w-md w-full">
