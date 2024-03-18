@@ -27,3 +27,6 @@
     background-color: rgb(238, 0, 0); 
     color: white;
 }
+.custom-calendar .rbc-event {
+    background-color: gray;
+}
