@@ -21,7 +21,7 @@
     border-bottom : 1px solid black
 }
 .custom-calendar .rbc-month-view{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .custom-calendar .rbc-now  {
     background-color: rgb(238, 0, 0); 
