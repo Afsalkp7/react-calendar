@@ -1,6 +1,6 @@
 *{
     margin: 0;
-    background: #000;
+    background: black;
 }
 
 .custom-calendar .rbc-today {
@@ -15,7 +15,7 @@
   }
 
 .custom-calendar .rbc-month-view{
-    border : 1px solid black
+    border : 1px solid rgb(255, 255, 255)
 }
 .custom-calendar .rbc-month-row{
     border-bottom : 1px solid black
@@ -29,4 +29,7 @@
 }
 .custom-calendar .rbc-event {
     background-color: gray;
+}
+.custom-calendar .rbc-btn-group button{
+    color: white;
 }

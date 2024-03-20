@@ -5,8 +5,8 @@ import { EventForm } from "./EventForm";
 const localizer = momentLocalizer(moment);
 
 function BigCalendar() {
-  const [events, setEvents] = useState([]);
 
+  const [events, setEvents] = useState([]);
   const [formMode, setFormMode] = useState("add");
   const [eventName, setEventName] = useState("");
   const [eventDate, setEventDate] = useState("");
@@ -58,7 +58,7 @@ function BigCalendar() {
         eventDate + " " + eventEndTime,
         "YYYY-MM-DD HH:mm"
       ).toDate();
-      if (formMode === "add") {
+      if ( formMode === "add" ) {
         const newEvent = {
           id: events.length + 1,
           title: eventName,
