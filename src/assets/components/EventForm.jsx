@@ -23,7 +23,7 @@ export const EventForm = ({
         onChange={(e) => setEventName(e.target.value)}
       />
       <div className="mb-4">
-        <label className="text-gray-500">Date:</label>
+        <label className="text-gray-500">Date :</label>
         <input
           className="bg-gray-800 text-gray-500 placeholder-gray-500 rounded-md p-2 w-full"
           type="date"
@@ -32,7 +32,7 @@ export const EventForm = ({
         />
       </div>
       <div className="mb-4">
-        <label className="text-gray-500">Start Time:</label>
+        <label className="text-gray-500">Start Time :</label>
         <input
           className="bg-gray-800 text-gray-500 placeholder-gray-500 rounded-md p-2 w-full"
           type="time"
