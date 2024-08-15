@@ -4,3 +4,5 @@
 - Created with proper state management
 - React , React big calendar
 - Date FNS
+
+You can add events and use as a crud operation
