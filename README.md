@@ -5,5 +5,4 @@
 - React , React big calendar
 - Date FNS
 
-You can add events and Work on it like a crud app
-
+You can add events and Work on it like a crud app (create read update delete ) 
