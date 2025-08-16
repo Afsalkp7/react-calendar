@@ -1,5 +1,4 @@
 import './App.css'
-// import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import 'react-big-calendar/lib/css/react-big-calendar.css';
 import BigCalendar from './assets/components/Calendar';
